@@ -1,0 +1,19 @@
+
+GET http://localhost:3000/test
+###
+GET http://localhost:3000/products
+###
+GET http://localhost:3000/totalproducts
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+"image_url": "Vardas - image_url",
+"title": "Vardas - title",
+"description": "Vardas - description",
+"price": 100
+}
+###
+DELETE http://localhost:3000/products/47
+###
